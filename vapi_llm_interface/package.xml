@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.ros.org/schema/package_format3.xsd"?>
+<package format="3">
+  <name>vapi_llm_interface</name>
+  <version>1.0.0</version>
+  <description>Vapi AI Webhook Bridge and Local Edge TinyLlama Interface for ROS 2 Nav2 Action Dispatching</description>
+  <maintainer email="dev@hotelrobot.com">Hotel Robot Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>rclpy_action</depend>
+  <depend>nav2_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
